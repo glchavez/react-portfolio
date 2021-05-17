@@ -14,17 +14,17 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
-                            <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
+                            <Link to="/" className={window.location.pathname === "/#/" ? "nav-link active" : "nav-link"}>
                                 About
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/portfolio" className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
+                            <Link to="/portfolio" className={window.location.pathname === "/#/portfolio" ? "nav-link active" : "nav-link"}>
                                 Portfolio
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/contact" className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
+                            <Link to="/contact" className={window.location.pathname === "/#/contact" ? "nav-link active" : "nav-link"}>
                                 Contact
                             </Link>
                         </li>
