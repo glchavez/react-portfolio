@@ -1,18 +1,18 @@
 import React from "react";
-import Headshot from "../assets/images/Headshot.png";
-import Resume from "../assets/resume/Giovany_Chavez_Resume.pdf"
+import Headshot from "../assets/images/Headshot.jpg";
+import Resume from "../assets/resume/Giovany-Chavez-Resume.pdf"
 
 function Homepage() {
     return (
         <main className="container">
             <div className="row">
-                <h2 className="col-sm-12" style="padding-top: 25px;">About Me</h2>
+                <h2 className="col-sm-12" style={{ paddingTop: "25px" }}>About Me</h2>
             </div>
             <hr />
             <section className="row">
                 <div className="col-sm-12">
                     <img src={Headshot} id="headshot" className="float-left mr-2"
-                        style="max-width: 30%; height: auto;" alt="Headshot of Giovany" />
+                        style={{ maxWidth: "30%", height: "auto" }} alt="Headshot of Giovany" />
                     <p>Hello, my name is Giovany Chavez and I am a current non-profit worker at the International
                     City/County Management Association (ICMA). Eager to make a career change into the web development
                     indusrty, I have enrolled in the University of Denver full stack web development bootcamp. Despite
@@ -30,7 +30,7 @@ function Homepage() {
                     <br /><br />
                     To learn more about my background and experiences, please feel free to take a look at my <a
                             href={Resume} target="_blank" download>resume</a>.
-                </p>
+                    </p>
                 </div>
             </section>
         </main>

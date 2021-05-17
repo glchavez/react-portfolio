@@ -1,0 +1,31 @@
+body {
+    background-color:rgba(240, 240, 240, 0.979);
+}
+
+#navbarName,
+.project-title {
+    color: #6b7937;
+}
+
+.navbar,
+.footer {
+    background-color: #a5a5a5e3;
+}
+
+hr {
+    background-color: grey;
+}
+
+#headshot {
+    border: 1px solid rgb(209, 208, 208);
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #95a556;
+    border-color: #343636;
+}
+
+.portfolio-img {
+    border: 1px solid rgb(209, 208, 208);
+}
