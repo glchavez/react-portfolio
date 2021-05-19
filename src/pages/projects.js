@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectData from "../utils/API";
 import Project from "../components/Project";
+import Wrapper from "../components/Wrapper"
 import ConcoctionsImg from "../assets/images/concoctions.png"
 import WeatherDashImg from "../assets/images/weather_desktop.png"
 import WorkdaySchImg from "../assets/images/scheduler_layout.png"
@@ -15,8 +16,7 @@ function Projects() {
                 <h2 className="col-sm-12" style={{ paddingTop: "25px" }}>Portfolio</h2>
             </div>
             <hr />
-            <article className="row">
-
+            <Wrapper>
                 <Project
                     image={ConcoctionsImg}
                     title={ProjectData[0].title}
@@ -41,9 +41,8 @@ function Projects() {
                     deployedUrl={ProjectData[2].deployedUrl}
                     gitHubUrl={ProjectData[2].gitHubUrl}
                 />
-            </article>
-            <article className="row">
-
+            </Wrapper>
+            <Wrapper>
                 <Project
                     image={TechBlogImg}
                     title={ProjectData[3].title}
@@ -60,7 +59,7 @@ function Projects() {
                     deployedUrl={ProjectData[4].deployedUrl}
                     gitHubUrl={ProjectData[4].gitHubUrl}
                 />
-            </article>
+            </Wrapper>
         </section>
     );
 }
