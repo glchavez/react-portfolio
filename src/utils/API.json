@@ -16,7 +16,7 @@
     {
         "title": "Workday Scheduler",
         "description": "Plan your workday on an hourly basis with this application.",
-        "technology": "TML, CSS, JavaScript, jQuery, Bootstrap",
+        "technology": "HTML, CSS, JavaScript, jQuery, Bootstrap",
         "deployedUrl": "https://glchavez.github.io/Workday-Scheduler/",
         "gitHubUrl": "https://github.com/glchavez/Workday-Scheduler"
     },
@@ -33,5 +33,26 @@
         "technology": "JavaScript, jQuery, Node.js, express-handlebars, MySQL2, Sequelize, bcrypt, Bootstrap",
         "deployedUrl": "https://haggle-proj.herokuapp.com/",
         "gitHubUrl": "https://github.com/domrafiti/ProjectTwoHaggle"
+    },
+    {
+        "title": "Javascript Code Quiz",
+        "description": "",
+        "technology": "",
+        "deployedUrl": "",
+        "gitHubUrl": ""
+    },
+    {
+        "title": "Team Profile Generator",
+        "description": "",
+        "technology": "",
+        "deployedUrl": "",
+        "gitHubUrl": ""
+    },
+    {
+        "title": "Workout Tracker",
+        "description": "",
+        "technology": "",
+        "deployedUrl": "",
+        "gitHubUrl": ""
     }
 ]

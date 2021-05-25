@@ -1,6 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
+import emailjs from 'emailjs-com';
 
 function Contact() {
+    const [contactName, setContactName] = useState();
+    const [contactEmail, setContactEmail] = useState();
+    const [contactMessage, setContactMessage] = useState();
+
+
+    const handleFormSubmit = event => {
+        event.preventDefault();
+        if (!contactName || !contactEmail || !contactMessage) {
+            alert("Please fill out all input area's")
+        } else {
+            alert("Your message has been sent, thank you!")
+        }
+
+        sendEmail(event)
+
+        setContactName()
+        setContactEmail()
+        setContactMessage()
+    };
+
+    const sendEmail = event => {
+        event.preventDefault();
+
+        emailjs.sendForm('service_u0uw9q5', 'template_18on2ke', event.target, 'user_0QeAhwpc05dQsL5tDHcjX')
+            .then((result) => {
+                window.location.reload()
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
+
     return (
         <main className="container">
             <div className="row">
@@ -8,31 +40,31 @@ function Contact() {
             </div>
             <hr />
             <section className="row">
-                <form className="col-md-12 col-lg-8">
+                <form className="col-md-12 col-lg-8" onSubmit={handleFormSubmit}>
                     <div className="col-md-12">
                         <div className="row form-group">
                             <div className="col-sm-12">
                                 <label htmlFor="name">Name</label>
                                 <br />
-                                <input type="text" className="form-control" id="name" name="name" placeholder="Name" />
+                                <input type="text" className="form-control" id="name" name="contact_name" placeholder="Enter name" onChange={e => setContactName(e.target.value)} />
                             </div>
                         </div>
                         <div className="row form-group">
                             <div className="col-sm-12">
                                 <label htmlFor="email">Email</label>
                                 <br />
-                                <input type="email" className="form-control" id="email" name="email" placeholder="Email" />
+                                <input type="email" className="form-control" id="email" name="contact_email" placeholder="Enter email" onChange={e => setContactEmail(e.target.value)} />
                             </div>
                         </div>
                         <div className="row form-group">
                             <div className="col-sm-12">
                                 <label htmlFor="message">Message</label>
-                                <textarea className="form-control" id="message" rows="3" placeholder="Message"></textarea>
+                                <textarea className="form-control" id="message" rows="3" placeholder="Enter message here" type="text" name="contact_message" onChange={e => setContactMessage(e.target.value)}></textarea>
                             </div>
                         </div>
                         <div className="row form-group">
                             <div className="col-sm-2">
-                                <button type="submit" className="btn btn-primary">Submit</button>
+                                <button type="submit" value="Send" className="btn btn-primary">Submit</button>
                             </div>
                         </div>
                     </div>
