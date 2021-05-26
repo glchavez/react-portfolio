@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.92aea682.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.c2ed361d.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.c2ed361d.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.49cdbaaa.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.49cdbaaa.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/react-portfolio/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.a999705c.chunk.js": "/react-portfolio/static/js/2.a999705c.chunk.js",
+    "static/js/2.a999705c.chunk.js.map": "/react-portfolio/static/js/2.a999705c.chunk.js.map",
+    "static/js/3.d2b7ef33.chunk.js": "/react-portfolio/static/js/3.d2b7ef33.chunk.js",
+    "static/js/3.d2b7ef33.chunk.js.map": "/react-portfolio/static/js/3.d2b7ef33.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/react-portfolio/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.92aea682.chunk.css.map": "/react-portfolio/static/css/main.92aea682.chunk.css.map",
+    "static/js/2.a999705c.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.a999705c.chunk.js.LICENSE.txt",
+    "static/media/Giovany-Chavez-Resume.fb978a99.pdf": "/react-portfolio/static/media/Giovany-Chavez-Resume.fb978a99.pdf",
+    "static/media/Headshot.d706b939.jpg": "/react-portfolio/static/media/Headshot.d706b939.jpg",
+    "static/media/Tech-Blog.b3bc47c8.png": "/react-portfolio/static/media/Tech-Blog.b3bc47c8.png",
+    "static/media/concoctions.2fee3a3e.png": "/react-portfolio/static/media/concoctions.2fee3a3e.png",
+    "static/media/haggle_desktop.ff87ecdc.png": "/react-portfolio/static/media/haggle_desktop.ff87ecdc.png",
+    "static/media/notes.29463a5e.png": "/react-portfolio/static/media/notes.29463a5e.png",
+    "static/media/random_password.6ee9d66c.png": "/react-portfolio/static/media/random_password.6ee9d66c.png",
+    "static/media/scheduler_layout.d3ee395b.png": "/react-portfolio/static/media/scheduler_layout.d3ee395b.png",
+    "static/media/weather_desktop.a849dec9.png": "/react-portfolio/static/media/weather_desktop.a849dec9.png",
+    "static/media/workout.d3a3be6d.png": "/react-portfolio/static/media/workout.d3a3be6d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.49cdbaaa.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.a999705c.chunk.js",
+    "static/css/main.92aea682.chunk.css",
+    "static/js/main.c2ed361d.chunk.js"
+  ]
+}
