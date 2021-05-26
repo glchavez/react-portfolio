@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // Depending on the current path, this component sets the "active" className on the appropriate navigation link item
-function Navbar() {
+function Header() {
     return (
         <header>
             <nav className="navbar navbar-expand-md navbar-dark">
@@ -35,4 +35,4 @@ function Navbar() {
     )
 };
 
-export default Navbar;
+export default Header;

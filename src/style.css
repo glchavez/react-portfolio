@@ -30,6 +30,7 @@ hr {
 #headshot {
     border: 1px solid rgb(209, 208, 208);
     border-radius: 10px;
+    margin-bottom: 5px;
 }
 
 .btn {

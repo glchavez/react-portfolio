@@ -35,24 +35,24 @@
         "gitHubUrl": "https://github.com/domrafiti/ProjectTwoHaggle"
     },
     {
-        "title": "Javascript Code Quiz",
-        "description": "",
-        "technology": "",
-        "deployedUrl": "",
-        "gitHubUrl": ""
-    },
-    {
-        "title": "Team Profile Generator",
-        "description": "",
-        "technology": "",
-        "deployedUrl": "",
-        "gitHubUrl": ""
+        "title": "Note Taker",
+        "description": "A simple note application that tracks user thoughts.",
+        "technology": "HTML, CSS, Javascript, Node.js, Express, UUID",
+        "deployedUrl": "https://limitless-bastion-08253.herokuapp.com/",
+        "gitHubUrl": "https://github.com/glchavez/Note-Taker"
     },
     {
         "title": "Workout Tracker",
-        "description": "",
-        "technology": "",
-        "deployedUrl": "",
-        "gitHubUrl": ""
+        "description": "An application that helps individuals track their workouts.",
+        "technology": "HTML, CSS, Javascript, Node.js, Express, Mongoose",
+        "deployedUrl": "https://sleepy-atoll-23080.herokuapp.com/",
+        "gitHubUrl": "https://github.com/glchavez/Workout-Tracker"
+    },
+    {
+        "title": "Random Password Generator",
+        "description": "Generates a random password for users based on their selection of password length and types of characters they want included.",
+        "technology": "HTML, CSS, Javascript",
+        "deployedUrl": "https://glchavez.github.io/03-Random-Password-Generator/",
+        "gitHubUrl": "https://github.com/glchavez/03-Random-Password-Generator/tree/main/Assets/Java_Script"
     }
 ]

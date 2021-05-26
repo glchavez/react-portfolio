@@ -7,6 +7,9 @@ import WeatherDashImg from "../assets/images/weather_desktop.png"
 import WorkdaySchImg from "../assets/images/scheduler_layout.png"
 import TechBlogImg from "../assets/images/Tech-Blog.png"
 import HaggleImg from "../assets/images/haggle_desktop.png"
+import NotesImg from "../assets/images/notes.png"
+import WorkoutImg from "../assets/images/workout.png"
+import RandPasswordImg from "../assets/images/random_password.png"
 
 
 function Projects() {
@@ -58,6 +61,32 @@ function Projects() {
                     technology={ProjectData[4].technology}
                     deployedUrl={ProjectData[4].deployedUrl}
                     gitHubUrl={ProjectData[4].gitHubUrl}
+                />
+                <Project
+                    image={RandPasswordImg}
+                    title={ProjectData[7].title}
+                    description={ProjectData[7].description}
+                    technology={ProjectData[7].technology}
+                    deployedUrl={ProjectData[7].deployedUrl}
+                    gitHubUrl={ProjectData[7].gitHubUrl}
+                />
+            </Wrapper>
+            <Wrapper>
+                <Project
+                    image={WorkoutImg}
+                    title={ProjectData[6].title}
+                    description={ProjectData[6].description}
+                    technology={ProjectData[6].technology}
+                    deployedUrl={ProjectData[6].deployedUrl}
+                    gitHubUrl={ProjectData[6].gitHubUrl}
+                />
+                <Project
+                    image={NotesImg}
+                    title={ProjectData[5].title}
+                    description={ProjectData[5].description}
+                    technology={ProjectData[5].technology}
+                    deployedUrl={ProjectData[5].deployedUrl}
+                    gitHubUrl={ProjectData[5].gitHubUrl}
                 />
             </Wrapper>
         </section>
