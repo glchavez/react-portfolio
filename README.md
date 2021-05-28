@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# react-portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This portfolio was created to update my first portfolio by using [Create React App](https://github.com/facebook/create-react-app). This portfolio has an "About Me" page, "Portfolio" page, and "Contact" page. A key update to this portfolio is a functioning contact form.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+In addition to being a website to display my current projects and knowledge in web development, this portfolio tested my knowledge of React.js.
 
-### `npm start`
+The website contains an "About Me" page with a short bio of myself, a "Portfolio" page to display my completed projects, and a "Contact" page if anyone desires to reach out. SendGrid was the initial plan to implement a functioning contact form, but that did not work as SendGrid cannot send emails when implemented in a frontend program like React. After research, EmailJS was used to get the contact form working.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I would like to continue editing this website as I learn more about React and implement the powerful tools that React can power.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To view the current website, please click on the following link: [Giovany's Portfolio](https://glchavez.github.io/react-portfolio/)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+On top of the each web page there is a navigation bar with three links: About, Portfolio, and Contact. When clicked, these links will take you to their respective web pages, as shown in the images below. On the Contact web page, you can fill out the three text boxes to submit a request for contact. This will send an email to me with your information.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![About me web page screenshot](src/assets/images/homepage.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Portfolio web page screenshot](src/assets/images/projects.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Contact web page screenshot](src/assets/images/contact.png)
 
-### `npm run eject`
+## Credits
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+I would like to provide credit to [The Denver Univeristy Coding Bootcamp](https://bootcamp.du.edu/coding/) for providing me with the materials and intstructions to perform this project.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I would also like to recognize [EmailJS](https://www.emailjs.com/) for providing documents on how to create a form that sends an email when submitted through a React App.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## License
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+MIT License
 
-## Learn More
+Copyright &copy; 2021 Giovany Chavez
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
